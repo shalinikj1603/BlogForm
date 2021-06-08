@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+:root {
+    --main-bg-color: rgb(233, 140, 140);
+    --font: 'Lora', serif;
+}
+
+.button {
+    justify-content: center;
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+}
+
+.myClass {
+    background-color: rgb(229, 216, 241, 0.3);
+    margin: 100px;
+    padding: 75px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 15px;
+    line-break: anywhere;
+    font-family: var(--font);
+}
+
+.img-rounded-border {
+    float: left;
+    height: 100px;
+    width: 200px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 0px 25px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black
+}
+
+.homearticles {
+    background-color: rgb(229, 216, 241, 0.3);
+    padding-top: 12px;
+}
+
+.homearticle {
+    display: flex;
+    margin: 25px;
+}
+
+.home-article-img {
+    width: 300px
+}
+
+.font {
+    font-family: var(--font);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
